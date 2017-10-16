@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo12"
+    android:alpha="0.4"
+    android:weightSum="12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="user registration"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/textview"
+            android:layout_marginTop="@dimen/textview"
+            android:textColor="@color/textviewText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent">
+            <EditText
+                android:inputType="text"
+                android:id="@+id/user_etnm"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="First Name "
+                android:textColor="@color/textviewText"
+                android:textSize="@dimen/textview"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/user_etlnm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Last Name "
+                android:inputType="text"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/textviewText"
+                android:textSize="@dimen/textview"/>
+        </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/user_etcontact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Contact Number "
+                android:inputType="number"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/textviewText"
+                android:textSize="@dimen/textview"/>
+        </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/user_etemail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Email id (for contact) "
+                android:paddingRight="20dp"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textColor="@color/textviewText"
+                android:textSize="@dimen/textview"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.5">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/user_etpass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password "
+                android:nextFocusDown="@+id/user_etpass1"
+                android:inputType="textPassword"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/textviewText"
+                android:textSize="@dimen/textview"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/user_etpass1"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Confirm password "
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/textviewText"
+                android:textSize="@dimen/textview"/>
+        </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/user_btnreg"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Register"
+            android:textSize="@dimen/button"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/user_btnclr"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:textSize="@dimen/button"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

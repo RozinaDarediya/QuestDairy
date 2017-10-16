@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f90515</color>
+    <color name="colorPrimaryDark">#7c030a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="spash_screen_bg">#dcbfc9</color>
+    <color name="spash_text">#df1421</color>
+    <color name="sign_in">#76252b</color>
+    <color name="editText">#938788</color>
+    <color name="textview">#0b0a0a</color>
+    <color name="textviewText">#1e1d1d</color>
+    <color name="RecyclViewBackground">#d2212d</color>
+    <color name="blog_bg">#ef9fa5</color>
+    <color name="app">#bd78bac6</color>
+    <color name="blog_bg1">#d94852</color>
+    <color name="content">#6072e1</color>
+    <color name="duskYellow">#939cd6</color>
+    <color name="blog_title">#111f76</color>
+    <color name="promp_bg">#f0d4d4d7</color>
+    <color name="white">#fffefe</color>
+</resources>

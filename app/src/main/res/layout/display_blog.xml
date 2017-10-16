@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/editTextSize"
+    android:paddingRight="@dimen/editTextSize">
+<LinearLayout
+    android:layout_marginTop="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="40dp"
+        android:background="@color/spash_text">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/title"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Blog Title"
+                android:gravity="center"
+                android:clickable="false"
+                android:textStyle="bold"
+                android:textSize="@dimen/textview"
+                android:textColor="@color/blog_title"/>
+            <TextView
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:clickable="false"
+                android:id="@+id/content"
+                android:paddingLeft="10sp"
+                android:background="@color/white"
+                android:text="content of the blog"
+                android:textSize="18dp"
+                android:textColor="@color/content"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:focusable="false"/>
+            <TextView
+                android:layout_marginTop="1sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:clickable="false"
+                android:paddingRight="20sp"
+                android:text="click to read detailed blog..."
+                android:background="@color/white"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</LinearLayout>
